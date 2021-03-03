@@ -1,0 +1,30 @@
+{
+  "name": "codingwithandy",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel src/**/*.html",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "typescript": "^3.9.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@types/jest": "^26.0.9",
+    "@types/node": "^14.0.27",
+    "@types/react": "^16.9.46",
+    "@types/react-dom": "^16.9.8",
+    "jest": "^26.3.0",
+    "parcel-bundler": "^1.12.4",
+    "ts-jest": "^26.2.0",
+    "ts-node": "^8.10.2"
+  }
+}
