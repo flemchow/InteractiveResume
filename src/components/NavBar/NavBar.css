@@ -1,3 +1,29 @@
+#navWrapper {
+  float: right;
+  position: sticky;
+  top: 0;
+  margin-right: 100px;
+  position: sticky;
+  height: 100%;
+}
+#linkContainer {
+  width: fit-content;
+  height: fit-content;
+  align-content: center;
+  text-align: center;
+}
+#linkContainer > ul {
+  display: inline-block;
+  align-items: center;
+}
 .linkitem {
+  padding: 15px 20px;
   list-style: none;
+  font-size: large;
+  background-color: black;
+  color: white;
+}
+
+.linkitem:hover {
+  color: darkgray;
 }

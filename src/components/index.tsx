@@ -1,1 +1,2 @@
-export { default } from "./NavBar";
+export { NavBar } from "./NavBar";
+export { Profile } from "./Profile";

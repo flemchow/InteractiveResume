@@ -1,0 +1,27 @@
+#profileWrapper {
+  align-content: center;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  /* background-color: antiquewhite; */
+}
+#innerWrapper {
+  margin: auto;
+  background-color: aquamarine;
+  width: 50%;
+}
+#profileContent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+#aboutMe,
+#profileDescription {
+  text-align: start;
+}
+
+#profileImg {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+}
