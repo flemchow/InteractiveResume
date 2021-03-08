@@ -5,33 +5,36 @@ import "./Profile.css";
 
 export default function Profile(): ReactElement {
   return (
-    <div id="profileWrapper" data-testid="profileWrapperTestId">
+    <div id="outerWrapper" data-testid="profileWrapperTestId">
       <div id="innerWrapper">
         <SectDescription heading={"Profile"} />
         <div id="profileContent">
           <div id="aboutMe">
-            <h2>About Me</h2>
-            <p>
+            <h2 className="title">About Me</h2>
+            <p className="content">
               I am a recent graduate from British Columbia Institute of
               Technlogy's Computer Systems Technology program, where I
-              cultivated my passion for solving problems using technology. I
-              love structure and order, to the point where I have a tedency to
-              eat pancakes while maintaining them in a square shape.
+              cultivated my passion for solving problems using technology. At
+              BCIT, I was exposed to the fundamentals of Object-Oriented
+              Programming and Human-Computer Interaction principles. On my own,
+              I delve into learning other technologies and developmental
+              approaches such as TypeORM, JWT tokens, and Test-Driven
+              Development.
             </p>
           </div>
           <div id="profilePicture">
             <img id="profileImg" src={PosedImg}></img>
           </div>
           <div id="profileDescription">
-            <h2>Details</h2>
-            <p>
+            <h2 className="title">Details</h2>
+            <p className="title">
               <b>Name:</b>
             </p>
-            <p>Flemming Chow</p>
-            <p>
+            <p className="content">Flemming Chow</p>
+            <p className="title">
               <b>Location:</b>
             </p>
-            <p>Vancouver, British Columbia, Canada</p>
+            <p className="content">Vancouver, British Columbia, Canada</p>
           </div>
         </div>
       </div>

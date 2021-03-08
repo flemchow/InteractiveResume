@@ -1,4 +1,4 @@
-#profileWrapper {
+#outerWrapper {
   align-content: center;
   text-align: center;
   position: relative;
@@ -7,7 +7,7 @@
 }
 #innerWrapper {
   margin: auto;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   width: 50%;
 }
 #profileContent {
@@ -21,7 +21,18 @@
 
 #profileImg {
   object-fit: cover;
+  object-position: 0% 30%;
   border-radius: 50%;
   height: 250px;
   width: 250px;
+  margin: auto;
+  border: 5px solid #55acee;
+}
+
+#profilePicture {
+  margin: auto;
+}
+
+.content {
+  color: #ccd6dd;
 }

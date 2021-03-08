@@ -9,6 +9,6 @@ describe("NavBar component", () => {
     render(<NavBar />);
 
     expect(screen.getByTestId("navWrapperTestId")).toBeInTheDocument();
-    expect(screen.getAllByRole("listitem")).toHaveLength(4);
+    expect(screen.getAllByRole("listitem")).toHaveLength(5);
   });
 });

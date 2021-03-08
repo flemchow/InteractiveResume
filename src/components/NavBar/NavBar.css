@@ -1,7 +1,7 @@
 #navWrapper {
+  z-index: 5;
   float: right;
-  position: sticky;
-  top: 0;
+  top: 35%;
   margin-right: 100px;
   position: sticky;
   height: 100%;
@@ -12,18 +12,19 @@
   align-content: center;
   text-align: center;
 }
-#linkContainer > ul {
+#navList {
   display: inline-block;
   align-items: center;
 }
-.linkitem {
+.navLinkItem {
   padding: 15px 20px;
   list-style: none;
   font-size: large;
-  background-color: black;
+  background-color: #66757f;
   color: white;
 }
 
-.linkitem:hover {
-  color: darkgray;
+.navLinkItem:hover {
+  background-color: #55acee;
+  cursor: pointer;
 }

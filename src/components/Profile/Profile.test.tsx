@@ -9,5 +9,7 @@ describe("Profile Component", () => {
     render(<Profile />);
 
     expect(screen.getByTestId("profileWrapperTestId")).toBeInTheDocument();
+    expect(screen.getAllByRole("heading")).toHaveLength(3);
+    expect(screen.getByRole("img")).toBeInTheDocument();
   });
 });
