@@ -9,7 +9,7 @@ export default function ExpPanel(props: expInterface): ReactElement {
       id="expPanelWrapper"
       data-testid="expPanelTestId"
       onClick={() => {
-        window.open(props.websiteLink);
+        if (props.websiteLink) window.open(props.websiteLink);
       }}
     >
       <div className="image">
