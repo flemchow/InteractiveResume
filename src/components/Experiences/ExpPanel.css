@@ -1,0 +1,31 @@
+#expPanelWrapper {
+  position: relative;
+  /* height: 200px; */
+  background-color: aliceblue;
+}
+.image {
+  opacity: 1;
+  display: block;
+  transition: 0.5s ease;
+  position: relative;
+  height: inherit;
+  background-color: aqua;
+}
+.image > img {
+  /* border-top-right-radius: 12%; */
+  object-fit: cover;
+}
+.detailsContainer {
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s ease;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+#expPanelWrapper:hover .image {
+  opacity: 0.3;
+}
+#expPanelWrapper:hover .detailsContainer {
+  opacity: 1;
+}
