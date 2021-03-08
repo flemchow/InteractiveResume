@@ -2,11 +2,11 @@ import React from "react";
 import "@testing-library/react";
 import "@testing-library/jest-dom/extend-expect";
 import { render, screen } from "@testing-library/react";
-import { Exp } from ".";
+import WorkExp from "./WorkExp";
 
-describe("experience component", () => {
+describe("work experience component", () => {
   it("renders all components successfully", () => {
-    render(<Exp />);
+    render(<WorkExp />);
 
     expect(screen.getByTestId("experienceSection")).toBeInTheDocument();
   });

@@ -1,3 +1,4 @@
 export { NavBar } from "./NavBar";
 export { Profile } from "./Profile";
-export { Exp, ExpPanel } from "./Experiences";
+export { WorkExp, PersonalExp } from "./Experiences";
+export { ExpPanel } from "./ExpPanel";

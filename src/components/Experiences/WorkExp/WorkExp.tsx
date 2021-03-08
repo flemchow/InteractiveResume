@@ -1,10 +1,10 @@
 import React, { ReactElement } from "react";
-import { SectDescription } from "../SectionDescription";
-import ExpPanel from "./ExpPanel";
-import { workExperiences } from "../constants";
-import "./Exp.css";
+import { SectDescription } from "../../SectionDescription";
+import { ExpPanel } from "../../ExpPanel";
+import { workExperiences } from "../../constants";
+import "./workExp.css";
 
-export default function Exp(): ReactElement {
+export default function WorkExp(): ReactElement {
   return (
     <div id="outerWrapper" data-testid="experienceSection">
       <div id="innerWrapper">

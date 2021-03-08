@@ -1,12 +1,13 @@
 import React from "react";
-import { NavBar, Profile, Exp } from "./components";
+import { NavBar, Profile, WorkExp, PersonalExp } from "./components";
 
 function App() {
   return (
     <>
       <NavBar />
       <Profile />
-      <Exp />
+      <WorkExp />
+      <PersonalExp />
     </>
   );
 }
