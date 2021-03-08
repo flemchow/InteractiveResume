@@ -1,23 +1,58 @@
 import React, { ReactElement } from "react";
+import { expInterface } from "../../models";
+import extLinkImg from "../../assets/externalLinkImg.png";
 import "./ExpPanel.css";
 
-interface expPanel {
-  name: string;
-  desc: string;
-  image?: string;
-  websiteLink?: string;
-}
-
-export default function ExpPanel(props: expPanel): ReactElement {
+export default function ExpPanel(props: expInterface): ReactElement {
   return (
-    <div id="expPanelWrapper" data-testid="expPanelTestId">
+    <div
+      id="expPanelWrapper"
+      data-testid="expPanelTestId"
+      onClick={() => {
+        window.open(props.websiteLink);
+      }}
+    >
       <div className="image">
         <img src={props.image} alt={props.name + " Image"} />
       </div>
       <div className="detailsContainer">
-        <p className="detailItem">{props.name}</p>
-        <p className="detailItem">{props.desc}</p>
-        <p className="detailItem">{props.websiteLink}</p>
+        <div className="headContainer">
+          <h2 className="detailItem title name">{props.name}</h2>
+          <img className="extLinkImg" src={extLinkImg} />
+          <p className="content date">
+            {props.startDate} - {props.endDate}
+          </p>
+        </div>
+        <div className="techStackContainer">
+          <p className="detailItem title">Technology Stack:</p>
+          <ul>
+            {props.techStack.map((tech) => {
+              return (
+                <li
+                  key={tech + "_key"}
+                  className="techStackListItem expPanelListItem content"
+                >
+                  {tech}
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+        <div className="tasksContainer">
+          <p className="detailItem title">Tasks:</p>
+          <ol>
+            {props.tasks.map((task) => {
+              return (
+                <li
+                  key={task + "_key"}
+                  className="taskListItem expPanelListItem content"
+                >
+                  {task}
+                </li>
+              );
+            })}
+          </ol>
+        </div>
       </div>
     </div>
   );

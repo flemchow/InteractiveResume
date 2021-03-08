@@ -6,9 +6,15 @@ import { ExpPanel } from ".";
 
 describe("ExpPanel Component", () => {
   it("all component parts render", () => {
-    render(<ExpPanel name={"test name"} desc={"test description"} />);
+    render(
+      <ExpPanel
+        name={"test name"}
+        techStack={["test1", "test2"]}
+        tasks={["task1", "task2"]}
+      />
+    );
 
     expect(screen.getByTestId("expPanelTestId")).toBeInTheDocument();
-    expect(screen.getAllByRole("img")).toHaveLength(1);
+    expect(screen.getAllByRole("img")).toHaveLength(2);
   });
 });
