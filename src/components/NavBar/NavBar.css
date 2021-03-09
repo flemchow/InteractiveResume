@@ -17,14 +17,22 @@
   align-items: center;
 }
 .navLinkItem {
-  padding: 15px 20px;
   list-style: none;
-  font-size: large;
   background-color: #66757f;
-  color: white;
+  padding: 0;
+  margin: 0;
 }
-
 .navLinkItem:hover {
   background-color: #55acee;
   cursor: pointer;
+}
+.activeScroll .navItem {
+  background-color: #55acee;
+  height: 100%;
+}
+.navItem {
+  padding: 15px 20px;
+  height: 100%;
+  color: white;
+  font-size: large;
 }
