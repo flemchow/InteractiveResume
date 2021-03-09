@@ -1,6 +1,6 @@
 import React, { ReactElement } from "react";
-import { expInterface } from "../../models";
-import { externalLinkImg } from "../../assets";
+import { expInterface } from "../../../models";
+import { externalLinkImg } from "../../../assets";
 import "./ExpPanel.css";
 
 export default function ExpPanel(props: expInterface): ReactElement {

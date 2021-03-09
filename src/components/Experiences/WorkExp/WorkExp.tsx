@@ -1,6 +1,6 @@
 import React, { ReactElement } from "react";
 import { SectDescription } from "../../";
-import { ExpPanel } from "../../ExpPanel";
+import { ExpPanel } from "../../Panels/ExpPanel";
 import { workExperiences } from "../../constants";
 import "./workExp.css";
 
