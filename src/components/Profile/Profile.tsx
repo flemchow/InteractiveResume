@@ -1,5 +1,5 @@
 import React, { ReactElement } from "react";
-import { SectDescription } from "../SectionDescription";
+import { SectDescription } from "../";
 import PosedImg from "../../assets/posed.jpeg";
 import "./Profile.css";
 

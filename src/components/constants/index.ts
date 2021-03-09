@@ -1,2 +1,2 @@
 export { default as workExperiences } from "./workExperience";
-export { default as personalProjects } from "./personalProjects";
+export { default as personalExperiences } from "./personalProjects";

@@ -1,5 +1,5 @@
 import React, { ReactElement } from "react";
-import { SectDescription } from "../../SectionDescription";
+import { SectDescription } from "../../";
 import { ExpPanel } from "../../ExpPanel";
 import { workExperiences } from "../../constants";
 import "./workExp.css";

@@ -13,12 +13,21 @@ export default function ExpPanel(props: expInterface): ReactElement {
       }}
     >
       <div className="image">
-        <img src={props.image} alt={props.name + " Image"} />
+        {props.image ? (
+          <img src={props.image} alt={props.name + " Image"} />
+        ) : (
+          <div className="noImage"></div>
+        )}
+        {/* <img src={props.image} alt={props.name + " Image"} /> */}
       </div>
       <div className="detailsContainer">
         <div className="headContainer">
           <h2 className="detailItem title name">{props.name}</h2>
-          <img className="extLinkImg" src={extLinkImg} />
+          {props.websiteLink ? (
+            <img className="extLinkImg" src={extLinkImg} />
+          ) : (
+            <></>
+          )}
           <p className="content date">
             {props.startDate} - {props.endDate}
           </p>
