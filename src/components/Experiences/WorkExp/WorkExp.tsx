@@ -2,7 +2,7 @@ import React, { ReactElement } from "react";
 import { SectDescription } from "../../";
 import { ExpPanel } from "../../Panels/ExpPanel";
 import { workExperiences } from "../../constants";
-import "./workExp.css";
+import "./WorkExp.css";
 
 export default function WorkExp(): ReactElement {
   return (
