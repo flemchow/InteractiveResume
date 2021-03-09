@@ -9,7 +9,6 @@ export default function NavBar(): ReactElement {
           <li className="navLinkItem">Profile</li>
           <li className="navLinkItem">Experiences</li>
           <li className="navLinkItem">Personal Projects</li>
-          <li className="navLinkItem">Hobbies</li>
           <li className="navLinkItem">Contact</li>
         </ul>
       </div>

@@ -15,6 +15,5 @@ describe("ExpPanel Component", () => {
     );
 
     expect(screen.getByTestId("expPanelTestId")).toBeInTheDocument();
-    expect(screen.getAllByRole("img")).toHaveLength(2);
   });
 });
