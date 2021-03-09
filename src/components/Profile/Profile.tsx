@@ -9,7 +9,7 @@ export default function Profile(): ReactElement {
       <div id="outerWrapper" data-testid="profileWrapperTestId">
         <div id="innerWrapper">
           <SectDescription heading={"Profile"} />
-          <div id="profileContent" className="contentBody">
+          <div id="profileContent" className="contentBody" key="profileKey">
             <div id="aboutMe">
               <h2 className="title">About Me</h2>
               <p className="content">

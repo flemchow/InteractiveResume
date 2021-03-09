@@ -11,4 +11,4 @@ export {
   LinkedInIcon2,
 } from "./contactIcons";
 export { PosedPicture, YellowShirt } from "./profilePictures";
-export { externalLinkImg } from "./miscellaneous";
+export { externalLinkImg, dogTitlePic, dogTitlePic2 } from "./miscellaneous";

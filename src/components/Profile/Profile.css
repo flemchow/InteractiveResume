@@ -9,7 +9,9 @@
   width: 50%;
 }
 .contentBody {
-  margin: 100px 0 150px 0;
+  margin: 1px 0 150px 0;
+  border-top: 5px solid #ccd6dd;
+  padding-top: 50px;
 }
 #profileContent {
   height: fit-content;
