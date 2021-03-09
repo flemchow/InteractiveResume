@@ -18,7 +18,7 @@ const personalProjects: expInterface[] = [
     name: "MovieFinderServer",
     startDate: "December 2020",
     endDate: "Present",
-    techStack: ["NodeJS", "ExpressJS", "TypeScript", "MySQL", "TypeORM", "JWT"],
+    techStack: ["ExpressJS", "TypeScript", "MySQL", "TypeORM", "JSONWebTokens"],
     tasks: [
       "Backend Server to handle use account validation for MovieFinder",
       "Learn proper industry techniques for building ExpressJS backend",

@@ -18,7 +18,6 @@ export default function ExpPanel(props: expInterface): ReactElement {
         ) : (
           <div className="noImage"></div>
         )}
-        {/* <img src={props.image} alt={props.name + " Image"} /> */}
       </div>
       <div className="detailsContainer">
         <div className="headContainer">
