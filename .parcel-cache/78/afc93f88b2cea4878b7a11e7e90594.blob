@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>I am Flemming Chow</title>
+    <meta charset="utf-8">
+    <style data-parcel-key="4c786fcd358ef5578de958ca73af5f66">
+      html,
+      body,
+      root {
+        margin: 0;
+        height: 100%;
+        background-color: #292f33;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script src="3ea8a9bcc5fc54422197c9d077445ca9"></script>
+  </body>
+</html>
