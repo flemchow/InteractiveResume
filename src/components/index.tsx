@@ -3,3 +3,4 @@ export { Profile } from "./Profile";
 export { WorkExp, PersonalExp } from "./Experiences";
 export { ExpPanel } from "./ExpPanel";
 export { SectDescription } from "./SectionDescription";
+export { Contact } from "./Contact";

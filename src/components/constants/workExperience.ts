@@ -1,7 +1,5 @@
 import { expInterface } from "../../models";
-import loveYourPlanet from "../../assets/LoveYourPlanet.png";
-import taiwanAssociation from "../../assets/TwnAssociation.png";
-import clio from "../../assets/clio.png";
+import { Clio, LoveYourPlanet, TaiwanAssociation } from "../../assets";
 const workExperiences: expInterface[] = [
   {
     name: "Love Your World's Social Media Platform",
@@ -14,7 +12,7 @@ const workExperiences: expInterface[] = [
       "Implemented a simple GUI for administrative purposes.",
     ],
     techStack: ["ReactJS", "TypeScript", "MongoDB"],
-    image: loveYourPlanet,
+    image: LoveYourPlanet,
     websiteLink: "lyp-world.herokapp.com",
   },
   {
@@ -28,7 +26,7 @@ const workExperiences: expInterface[] = [
       "Making application responsive through media queries.",
     ],
     techStack: ["ReactJS", "JavaScript", "FireBase"],
-    image: taiwanAssociation,
+    image: TaiwanAssociation,
     websiteLink: "https://gallery.torontotaiwanfest.ca/GalleryHome",
   },
   {
@@ -40,7 +38,7 @@ const workExperiences: expInterface[] = [
       "Created an automation script that would replace manual set up processes.",
     ],
     techStack: ["Ruby"],
-    image: clio,
+    image: Clio,
     websiteLink: "https://www.clio.com/",
   },
 ];

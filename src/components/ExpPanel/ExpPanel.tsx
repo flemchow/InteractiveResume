@@ -1,6 +1,6 @@
 import React, { ReactElement } from "react";
 import { expInterface } from "../../models";
-import extLinkImg from "../../assets/externalLinkImg.png";
+import { externalLinkImg } from "../../assets";
 import "./ExpPanel.css";
 
 export default function ExpPanel(props: expInterface): ReactElement {
@@ -24,7 +24,7 @@ export default function ExpPanel(props: expInterface): ReactElement {
         <div className="headContainer">
           <h2 className="detailItem title name">{props.name}</h2>
           {props.websiteLink ? (
-            <img className="extLinkImg" src={extLinkImg} />
+            <img className="extLinkImg" src={externalLinkImg} />
           ) : (
             <></>
           )}

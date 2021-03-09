@@ -1,6 +1,6 @@
 import React, { ReactElement } from "react";
 import { SectDescription } from "../";
-import PosedImg from "../../assets/posed.jpeg";
+import { PosedPicture } from "../../assets";
 import "./Profile.css";
 
 export default function Profile(): ReactElement {
@@ -23,7 +23,7 @@ export default function Profile(): ReactElement {
             </p>
           </div>
           <div id="profilePicture">
-            <img id="profileImg" src={PosedImg}></img>
+            <img id="profileImg" src={PosedPicture}></img>
           </div>
           <div id="profileDescription">
             <h2 className="title">Details</h2>

@@ -1,5 +1,5 @@
 import { expInterface } from "../../models";
-import moviefinder from "../../assets/movieFinderUI.png";
+import { MovieFinder } from "../../assets";
 const personalProjects: expInterface[] = [
   {
     name: "MovieFinder",
@@ -11,7 +11,7 @@ const personalProjects: expInterface[] = [
       "Make API calls to MovieFinderServer for user authentication",
       "A platform to further learn ReactJS, TypeScript, and Test-Driven Development",
     ],
-    image: moviefinder,
+    image: MovieFinder,
     websiteLink: "https://moviefinderui.netlify.app/",
   },
   {
